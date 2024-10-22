@@ -1,0 +1,17 @@
+Adicionar no arquivo c:\windowsC:\Windows\System32\drivers\etc\host
+
+192.168.1.21	            local.codeigniter
+
+Substitua o IP pelo ip do WiFI
+
+
+Adicionar no arquivo 
+C:\xampp\apache\conf\extra\httpd-vhosts.conf
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/UaiOl/public"
+    ServerName local.codeigniter
+	<Directory "C:/xampp/htdocs/seu_projeto/public">
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>

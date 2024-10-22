@@ -1,0 +1,916 @@
+{
+	"info": {
+		"_postman_id": "3e715f3f-2dd7-42e9-81ae-659bd80adae6",
+		"name": "MotoGo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2089053"
+	},
+	"item": [
+		{
+			"name": "Empresa",
+			"item": [
+				{
+					"name": "Procurar empresa",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzQ5MjIxOTMsImV4cCI6MTYzNDkyNTc5M30.HAs5kCJUw3pnC2L3jKnlfLzCACsknA03dqvK1rv190Y",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Todas Empresas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzQ5MjIxOTMsImV4cCI6MTYzNDkyNTc5M30.HAs5kCJUw3pnC2L3jKnlfLzCACsknA03dqvK1rv190Y",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Procurar Empresa pelo Id Usuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzQ5MjIxOTMsImV4cCI6MTYzNDkyNTc5M30.HAs5kCJUw3pnC2L3jKnlfLzCACsknA03dqvK1rv190Y",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Salvar Empresa",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Empresa",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Motoboy",
+			"item": [
+				{
+					"name": "Listar Todos Motoboys",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzQ5MjIxOTMsImV4cCI6MTYzNDkyNTc5M30.HAs5kCJUw3pnC2L3jKnlfLzCACsknA03dqvK1rv190Y",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mostrar um motoboy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/motoboys/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"motoboys",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar um Motoboy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzQ5MjA5MzcsImV4cCI6MTYzNDkyNDUzN30.wBLExEqYhnb6nyaNhiHJyhAjv7VgDHzaHhfG2RPvsXM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Ivan Cassia",
+									"type": "text"
+								},
+								{
+									"key": "cpf",
+									"value": "123.456.789-88",
+									"type": "text"
+								},
+								{
+									"key": "cnh",
+									"value": "987654321",
+									"type": "text"
+								},
+								{
+									"key": "rua",
+									"value": "Arlindo Bonamichi",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "457",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Centro",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Inconfidentes",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "MG",
+									"type": "text"
+								},
+								{
+									"key": "cep",
+									"value": "37576-000",
+									"type": "text"
+								},
+								{
+									"key": "data_nascimento",
+									"value": "1986-04-26",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys/12",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir um Motoboy Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzQ5MTUyNjcsImV4cCI6MTYzNDkxODg2N30.uTEaLbr6KD_GzqeirSTEXS4cMvKJlX9nCZaZdkz_P60",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "cpf",
+									"value": "123.456.789-9\n",
+									"type": "text"
+								},
+								{
+									"key": "cnh",
+									"value": "987654327",
+									"type": "text"
+								},
+								{
+									"key": "rua",
+									"value": "Rua Arlindo Bonamichi",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "457",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Centro",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Inconfidentes",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "MG",
+									"type": "text"
+								},
+								{
+									"key": "cep",
+									"value": "37576-000",
+									"type": "text"
+								},
+								{
+									"key": "data_nascimento",
+									"value": "1986-12-26",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "35 9999-0000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Excluir Motoboy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzQ5MjA5MzcsImV4cCI6MTYzNDkyNDUzN30.wBLExEqYhnb6nyaNhiHJyhAjv7VgDHzaHhfG2RPvsXM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys/33",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys",
+								"33"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "Registrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nome",
+									"value": "José Comilão",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "jose.comilao@yahoo.com.br",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "tipo",
+									"value": "Motoboy",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": "/C:/Users/ivan-/Desktop/ifsuldeminas.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://local.codeigniter/auth/register",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "salvafoto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nome",
+									"value": "José Comilão",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "jose.comilao@yahoo.com.br",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "tipo",
+									"value": "Motoboy",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": "/C:/Users/ivan-/Desktop/ifsuldeminas.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://local.codeigniter/auth/salvarfoto",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"auth",
+								"salvarfoto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Motoboy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "jose.comilao@yahoo.com.br",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://local.codeigniter/auth/login",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Empresa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "jose.comilao@yahoo.com.br",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://local.codeigniter/auth/login",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://local.codeigniter/auth/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "joelma@yahoo.com.br",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://local.codeigniter/auth/login",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"auth",
+								"login"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "123",
+									"disabled": true
+								},
+								{
+									"key": "senha",
+									"value": "123",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://local.codeigniter/api/motoboys",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImpvZWxtYUB5YWhvby5jb20uYnIiLCJpYXQiOjE2MzYxMTQ5NTMsImV4cCI6MTYzNjExODU1M30.Rr0ESRGUaxbucAfZ6z4fwSYnhMh2vWeaw9YTJb7Lsqc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://local.codeigniter/api/motoboys",
+							"protocol": "http",
+							"host": [
+								"local",
+								"codeigniter"
+							],
+							"path": [
+								"api",
+								"motoboys"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Encomendas",
+			"item": [
+				{
+					"name": "Listar Encomendas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "yJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UuY29taWxhb0B5YWhvby5jb20uYnIiLCJpYXQiOjE2MzkyMjk5OTEsImV4cCI6MTYzOTI2NTk5MX0.SxRPATPMQTI2kYqEB3ZbBSb4ReFFLatjNx7EbrDbecg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.147/api/empresa/encomendas/pendentes",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"empresa",
+								"encomendas",
+								"pendentes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mostrar 1 encomenda",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZsYWF2aWFAZ21haWwuY29tIiwiaWF0IjoxNjM5MDY0OTg4LCJleHAiOjE2MzkwNjg1ODh9.BEugY3ir8mB4Sd_iP6h16KKJ8itHCArOxBnw4mqTO4I",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.147/api/encomendas/10",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"encomendas",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir Encomenda",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZsYWF2aWFAZ21haWwuY29tIiwiaWF0IjoxNjM5MDY0OTg4LCJleHAiOjE2MzkwNjg1ODh9.BEugY3ir8mB4Sd_iP6h16KKJ8itHCArOxBnw4mqTO4I",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"descricao_produto\" : \"lanche\",\r\n    \"retirada_rua\" : \"rua retirada\" ,\r\n    \"retira_numero\" : \"numero retirada\",\r\n    \"retirada_bairro\": \"bairro retirada\" ,\r\n    \"retirada_estado\" : \"estado retirada\",\r\n    \"retirada_cidade\" : \"cidade retirada\",\r\n    \"retirada_cep\" : \"cep retirada\",\r\n    \"entrega_rua\" : \"entrega retirada\",\r\n    \"entrega_numero\" : \"entrega numero\",\r\n    \"entrega_bairro\" : \"entrega bairro\",\r\n    \"entrega_estado\" : \"entrega estado\",\r\n    \"entrega_cidade\" : \"entrega cidade\",\r\n    \"entrega_cep\" : \"entrega cep\",\r\n    \"peso\" : \"peso produto\",\r\n    \"dimensoes_produto\" : \"dimensoes produto\",\r\n    \"valor_entrega\" : 10.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.0.147/api/empresa/encomendas",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"empresa",
+								"encomendas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar encomenda",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZsYWF2aWFAZ21haWwuY29tIiwiaWF0IjoxNjM5MDY0OTg4LCJleHAiOjE2MzkwNjg1ODh9.BEugY3ir8mB4Sd_iP6h16KKJ8itHCArOxBnw4mqTO4I",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.147/api/empresa/encomendas/10",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"empresa",
+								"encomendas",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Motoboys-Novas Encomendas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZsYWF2aWFAZ21haWwuY29tIiwiaWF0IjoxNjM5MDY0OTg4LCJleHAiOjE2MzkwNjg1ODh9.BEugY3ir8mB4Sd_iP6h16KKJ8itHCArOxBnw4mqTO4I",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.147/api/motoboy/encomendas/novas",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"motoboy",
+								"encomendas",
+								"novas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Motoboys-Entregar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZsYWF2aWFAZ21haWwuY29tIiwiaWF0IjoxNjM5MDY0OTg4LCJleHAiOjE2MzkwNjg1ODh9.BEugY3ir8mB4Sd_iP6h16KKJ8itHCArOxBnw4mqTO4I",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.147/api/motoboy/candidatar/entrega/13",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"motoboy",
+								"candidatar",
+								"entrega",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Minhas Encomendas Motoboy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImNsYXVkaW9AZ21haWwuY29tIiwiaWF0IjoxNjM5MjMxNjM5LCJleHAiOjE2MzkyNjc2Mzl9.MSzmCFP-pPaIFhyFQR-pjpU5TSmJ3Q55-JarehPEiFk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.147/api/motoboy/encomendas/minhas",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"motoboy",
+								"encomendas",
+								"minhas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Novas Encomendas Motoboy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImNsYXVkaW9AZ21haWwuY29tIiwiaWF0IjoxNjM5MjMxNjM5LCJleHAiOjE2MzkyNjc2Mzl9.MSzmCFP-pPaIFhyFQR-pjpU5TSmJ3Q55-JarehPEiFk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.147/api/motoboy/encomendas/minhas",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"147"
+							],
+							"path": [
+								"api",
+								"motoboy",
+								"encomendas",
+								"minhas"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
