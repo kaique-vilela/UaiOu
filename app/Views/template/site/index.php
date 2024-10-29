@@ -35,9 +35,11 @@
     UaiOu
   </div>
   <div class="mt-4">
-    <p>A finalidade deste projeto é facilitar a comunicação entre motoboys e empresas. Deste modo, quando uma 
-      empresa necessitar fazer uma entrega de determinado produto, ela poderá solicitar no aplicativo, 
-      e os motoboys que estiverem disponíveis poderão fazer a entrega.
+    <p>A finalidade deste projeto é facilitar a relação entre os estabelecimentos 
+      de pequeno porte e os entregadores.
+      Com o UaiOu, os estabelecimentos poderão requisitar entregadores, sem que o cliente 
+      tenha que se envolver nessa transação, como nos casos em que o pedido é feito por ligação ou por mensagem.
+
     </p>
   </div>
 </div>

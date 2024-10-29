@@ -9,9 +9,9 @@
       <h3>Empresas </h3>
       <hr>
       <div class="mt-2 text-justify">
-      Com o UaiOu, você, empresário, encontrará com muito mais facilidade motoboys disponíveis para realizarem 
-      suas entregas, assim, aumentando os lucros de sua empresa. Além disso, a MotoGo facilitará a comunicação 
-      entre você e os motoboys.</br>
+      Com o UaiOu, você consegue de forma fácil encontrar motoboys disponíveis para suas entregas. 
+      A plataforma conecta você a profissionais que podem suprir suas necessidades de forma ágil e 
+      eficiente.</br>
       </div>
     </div>
   </div>

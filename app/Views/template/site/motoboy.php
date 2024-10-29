@@ -9,8 +9,7 @@
       <h3>Motoboy </h3>
       <hr>
       <div class="mt-2 text-justify">
-      Com o UaiOu, você, motoboy, encontrará com muito mais facilidade entregas disponíveis para serem feitas, assim, aumentando sua renda. Além de promover uma comunicação melhor com seus fornecedores.</br>
-      Para fazer parte desse projeto basta cadastrar-se abaixo.
+      Com o UaiOu, você vai conseguir entregas de maneira muito mais eficaz, principalmente em cidades pequenas! </br>
       </div>
       <!--<a class="btn btn-info mt-4" href="quem_somos.html">Cadastre-se</a>-->
     </div>
